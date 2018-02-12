@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app"  /*cambio un url que habia ahi por "app" y ene l terminal ya poner node app sino npm start y hace exctamente lo mismo pero npm deja usar mas scripts
+    "start": "node app"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
+    "ejs": "^2.5.7",
     "express": "~4.15.2",
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
